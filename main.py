@@ -19,7 +19,7 @@ movie_model = api.model('Movie', {
 
 movies = []
 
-# Helper function to validate movie data
+
 
 @ns.route('/')
 class MovieList(Resource):
